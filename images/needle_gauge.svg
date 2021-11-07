@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9376a8;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        font-family: P22StickleyProText-Bold, P22 Stickley Pro;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-7, .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        font-size: 8px;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        font-family: P22StickleyProDisplay, P22 Stickley Pro;
+      }
+
+      .cls-8 {
+        font-size: 7px;
+      }
+
+      .cls-9 {
+        font-size: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Gauge">
+    <g>
+      <path class="cls-1" d="M150.91,264c-26.28,0-52.56-.13-78.84,0-22.84.15-37.24-19.49-37-36.9.63-48.66.24-97.34.51-146,0-8.76-.34-17.78,4.29-25.89,6.83-12,16.86-19,30.86-19.07q78.63-.18,157.27,0c19.19,0,34.21,13,36.5,31.77.81,6.61.33,13.39.33,20.09,0,45.72.05,91.44-.14,137.16-.06,16.14-6.45,28.84-21.69,36a29.69,29.69,0,0,1-12.83,2.89q-39.61-.06-79.24,0Zm70.86-20.89a21.55,21.55,0,0,0,21.81-21.6,21.29,21.29,0,0,0-21.68-21.66,21.63,21.63,0,1,0-.13,43.26Zm-37-21.2c.09-10.47-7.65-18.23-18.25-18.3-9.35-.07-17.5,8.17-17.67,17.85s7.85,17.74,17.89,17.89C176.93,239.52,184.65,232.05,184.73,221.93ZM101,221c0,9.63,6.71,16,16.77,15.93,8.47-.05,15.33-7.41,15.26-16.37S125.94,205,116.62,205A15.69,15.69,0,0,0,101,221ZM72.9,236.24A14.24,14.24,0,0,0,87.64,222c.07-7.29-6.79-14.27-14.11-14.34-7.56-.07-14.22,6.87-14.35,14.94C59.05,230.28,64.93,236.13,72.9,236.24ZM243,160.16a11.61,11.61,0,0,0-11.5-11.59c-6.16-.09-10.88,5.11-10.91,12,0,6.46,4.65,11.08,11.2,11.07C238.52,171.65,243,167,243,160.16Zm-38.59.26c.08-6.44-4.36-11.06-10.63-11.08a10.67,10.67,0,0,0-.28,21.33C199.81,170.83,204.33,166.57,204.4,160.42Zm-46.89,9.34a9.82,9.82,0,0,0-.12-19.63,9.64,9.64,0,0,0-10,9.83A10,10,0,0,0,157.51,169.76Zm-33.69-1.58a8.64,8.64,0,0,0,8.84-8.88,8.82,8.82,0,0,0-8.85-9,9.32,9.32,0,0,0-9.08,9C114.63,164,118.85,168.1,123.82,168.18Zm-29.28-.94a8.34,8.34,0,0,0,8.22-8.18c.09-4.28-3.73-8-8.22-8.08-4.07,0-8.08,3.85-8.11,7.85S90.48,167.21,94.54,167.24Zm-28.95-1.51a7.6,7.6,0,0,0,7.34-7.12,7.85,7.85,0,0,0-7.41-7.55,7.34,7.34,0,0,0,.07,14.67Zm166.69-49.06a6.4,6.4,0,0,0,6.46-6.69,6.79,6.79,0,0,0-6.43-6.45,6.55,6.55,0,0,0-6.52,6.27A7,7,0,0,0,232.28,116.67Zm-18.53-5.77a6,6,0,0,0-6.36-5.84,5.85,5.85,0,0,0-6,6.09A6.06,6.06,0,0,0,207.7,117,6,6,0,0,0,213.75,110.9Zm-30.14,6c3.24,0,5.38-2.36,5.29-5.74s-2.88-6.09-6-5.73-5,2.21-5,5.62S180.23,117,183.61,116.94ZM159.94,116c2.67-.15,4.36-2,4.61-5,.22-2.69-2.64-5.2-5.54-5.07-3.17.13-4.95,1.83-5,5C153.86,113.86,156.33,116.09,159.94,116Zm-30-6.08c0,3.53,2.19,5.93,5,5.63,2.94-.31,5.06-2,5-5.15s-2.11-4.8-5.24-4.71S130.12,107.55,129.93,109.92Zm-19.37,5.13c2.85.09,4.65-1.32,4.83-3.89s-1.66-4.13-4.25-4.39-4.14,1.33-4.46,3.66C106.31,113.2,108.21,114.48,110.56,115.05ZM88,113.93c2.57.08,4.18-1.19,4.35-3.5s-1.5-3.73-3.83-4a3.47,3.47,0,0,0-4,3.3C84.19,112.26,85.91,113.41,88,113.93Zm-21.81-.42c2.28.08,3.72-1.06,3.87-3.11s-1.34-3.31-3.4-3.51a3.08,3.08,0,0,0-3.57,2.92C62.81,112,64.33,113.05,66.21,113.51ZM221.09,77.05a6.38,6.38,0,0,0,6.46-6.68,6.77,6.77,0,0,0-6.42-6.45,6.56,6.56,0,0,0-6.53,6.27A6.94,6.94,0,0,0,221.09,77.05Z"/>
+      <text class="cls-2" transform="translate(62.99 71.49)">Need<tspan class="cls-3" x="45.56" y="0">l</tspan><tspan x="52.86" y="0">e</tspan><tspan class="cls-4" x="61.64" y="0"> </tspan><tspan x="66.4" y="0">G</tspan><tspan class="cls-5" x="81.48" y="0">a</tspan><tspan class="cls-6" x="90.06" y="0">uge</tspan></text>
+      <g>
+        <g id="us">
+          <text class="cls-7" transform="translate(64.12 99.59)">0</text>
+          <text class="cls-7" transform="translate(87.23 99.51)">1</text>
+          <text class="cls-7" transform="translate(107.88 99.51)">1.5</text>
+          <text class="cls-7" transform="translate(132.95 99.51)">2</text>
+          <text class="cls-7" transform="translate(155.45 99.51)">2.5</text>
+          <text class="cls-7" transform="translate(182.2 99.51)">3</text>
+          <text class="cls-7" transform="translate(205.82 99.51)">4</text>
+          <text class="cls-7" transform="translate(230.68 99.51)">5</text>
+          <text class="cls-7" transform="translate(63.4 146.1)">6</text>
+          <text class="cls-7" transform="translate(92.74 146.1)">7</text>
+          <text class="cls-7" transform="translate(122.31 146.1)">8</text>
+          <text class="cls-7" transform="translate(156.06 146.1)">9</text>
+          <text class="cls-7" transform="translate(190.49 146.1)">10</text>
+          <text class="cls-7" transform="translate(227.74 146.1)">10.5</text>
+          <text class="cls-7" transform="translate(71.12 195.87)">11</text>
+          <text class="cls-7" transform="translate(117.64 195.87)">13</text>
+          <text class="cls-7" transform="translate(163.78 208.56)">9</text>
+          <text class="cls-7" transform="translate(164.85 195.87)">15</text>
+          <text class="cls-7" transform="translate(219.12 195.87)">17</text>
+        </g>
+        <text class="cls-8" transform="translate(63.68 177.91)">4</text>
+        <text class="cls-8" transform="translate(91.52 177.91)">4.5</text>
+        <text class="cls-8" transform="translate(122.85 177.91)">5</text>
+        <text class="cls-8" transform="translate(153.97 177.91)">5.5</text>
+        <text class="cls-8" transform="translate(192.34 177.91)">6</text>
+        <text class="cls-8" transform="translate(229.07 177.91)">6.5</text>
+        <text class="cls-8" transform="translate(65.07 125.48)">2</text>
+        <text class="cls-8" transform="translate(83.13 125.4)">2.25</text>
+        <text class="cls-8" transform="translate(107.4 125.4)">2.5</text>
+        <text class="cls-8" transform="translate(129.28 125.4)">2.75</text>
+        <text class="cls-8" transform="translate(157.69 125.4)">3</text>
+        <text class="cls-8" transform="translate(178.58 125.4)">3.25</text>
+        <text class="cls-8" transform="translate(228.24 125.4)">3.75</text>
+        <text class="cls-8" transform="translate(204.12 125.4)">3.5</text>
+        <text class="cls-8" transform="translate(71.4 249.68)">8</text>
+        <text class="cls-8" transform="translate(116.43 249.68)">9</text>
+        <text class="cls-8" transform="translate(166.7 249.68)">10</text>
+        <text class="cls-8" transform="translate(220.45 249.68)">12</text>
+        <g>
+          <text class="cls-8" transform="translate(216.77 60.54)">US</text>
+          <text class="cls-9" transform="translate(216.5 83.43)">mm</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
