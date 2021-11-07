@@ -6,6 +6,27 @@
         <link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8" >
         <script src="./d3.v6.min.js" charset="utf-8"></script>
         <title>Animated Stitches</title>
+        <script>
+            // https://css-tricks.com/sticky-table-of-contents-with-scrolling-active-states/
+            window.addEventListener('DOMContentLoaded', () => {
+
+            const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                if (entry.intersectionRatio > 0) {
+                document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+                } else {
+                document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+                }
+            });
+            });
+
+            // Track all sections that have an `id` applied
+            document.querySelectorAll('section[id]').forEach((section) => {
+            observer.observe(section);
+            });
+            });
+        </script>
     </head>
     <body>
         <h1>Animated Stitches</h1>
@@ -13,8 +34,8 @@
             <div class="dropdown">
                 <button class="dropbtn">Tools</button>
                 <div class="dropdown-content">
-                    <a href="#Needles">Needles</a>
-                    <a href="#Accessories">Accessories</a>
+                    <a href="#needles">Needles</a>
+                    <a href="#accessories">Accessories</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -47,5 +68,19 @@
                 <div class="dropdown-content"></div>
             </div>
         </nav>
+        <main>
+            <section id="needles"></section>
+            <section id="accessories">
+                <h2>Tools</h2>
+                <div>
+                    <h3>Needle Gauge</h3>
+                    <img src="images/needle_gauge.svg">
+                </div>
+                <div>
+                    <h3>Stitch Markers</h3>
+                    <img src="images/stitch_markers.svg">
+                </div>
+            </section>
+        </main>
     </body>
 </html>

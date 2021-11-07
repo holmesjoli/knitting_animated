@@ -4,9 +4,6 @@ html, body {
 }
 
 body {
-    /* font-family: p22-stickley-pro-headline, serif;
-    font-weight: 500;
-    font-style: normal; */
     font-family: p22-stickley-pro-text, serif;
     font-weight: 400;
     font-style: italic;
@@ -19,10 +16,25 @@ h1 {
     margin: 20px;
     text-align: center;
 }
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+img {
+    margin: 20px;
+}
 
 .navbar {
     overflow: hidden;
     background-color: #333;
+}
+
+section > div {
+    display: inline-block;
 }
 
 /* Links inside the navbar */
