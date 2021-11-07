@@ -1,39 +1,50 @@
-<DOCTYPE!>
-    <html>
-        <head>
-            <link rel="stylesheet" src="styles.css">
-            <title>Animated Stiches</title>
-        </head>
-        <body>
-            <h1>Animated Stiches</h1>
-            <h2></h2>
-            <nav>
-                <ul>
-                    <li>Simple stiches
-                        <ul>
-                            <li><a href="#knit">Knit</a></li>
-                            <li><a href="#purl">Purl</a></li>
-                            <li><a href="#seed">Seed</a></li>
-                            <li><a href="#ssk">Slip slip knit</a></li>
-                            <li><a href="#k1b">Knit one below</a></li>
-                        </ul>
-                    </li>
-                    <li>Increases and decreases
-                        <ul>
-                            <li><a href="#m1l">Make one left</a></li>
-                            <li><a href="#m1r">Make one right</a></li>
-                        </ul>
-                    </li>
-                    <li>Cast on
-                        <ul>
-                            <li><a href="#slip-knot">Slip knot</a></li>
-                            <li><a href="#regular-cast">Regular cast</a></li>
-                            <li><a href="#longtail-cast">Longtail cast</a></li>
-                        </ul>
-                    </li>
-                    <li>Bind off</li>
-                    <li>Tools</li>
-                </ul>
-            </nav>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8" >
+        <script src="./d3.v6.min.js" charset="utf-8"></script>
+        <title>Animated Stitches</title>
+    </head>
+    <body>
+        <h1>Animated Stitches</h1>
+        <nav class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Tools</button>
+                <div class="dropdown-content">
+                    <a href="#Needles">Needles</a>
+                    <a href="#Accessories">Accessories</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Simple stitches</button>
+                <div class="dropdown-content">
+                    <a href="#knit">Knit</a>
+                    <a href="#purl">Purl</a>
+                    <a href="#seed">Seed</a>
+                    <a href="#ssk">Slip slip knit</a>
+                    <a href="#k1b">Knit one below</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Increases and decreases</button>
+                <div class="dropdown-content">
+                    <a href="#m1l">Make one left</a>
+                    <a href="#m1r">Make one right</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Cast on</button>
+                <div class="dropdown-content">
+                    <a href="#slip-knot">Slip knot</a>
+                    <a href="#regular-cast">Regular cast</a>
+                    <a href="#longtail-cast">Longtail cast</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Bind off</button>
+                <div class="dropdown-content"></div>
+            </div>
+        </nav>
+    </body>
+</html>
